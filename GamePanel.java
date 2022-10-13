@@ -138,7 +138,7 @@ public class GamePanel extends JPanel implements Runnable {
    public Color bgC; // backGround color
    
    public GamePanel() {
-      this.state = GameState.END;
+      this.state = GameState.START;
       this.bgC = new Color(24, 164, 232);
       this.setPreferredSize(new Dimension(screenWidth, screenHeight));
       this.setBackground(bgC);
@@ -204,7 +204,7 @@ public class GamePanel extends JPanel implements Runnable {
             if(player.exiting) {
                System.exit(0);
             }
-            
+            s.pScore = 0;
          break;
          
          case PLAYING:
@@ -275,6 +275,7 @@ public class GamePanel extends JPanel implements Runnable {
             
          break;
          case END:
+            t0.labelText = 60;
             this.setBackground(Color.LIGHT_GRAY);
             player.detectRetry(retryB);
             player.detectExit(exitB);
