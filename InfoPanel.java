@@ -10,12 +10,12 @@ public class InfoPanel extends Thing {
    Font font;
    boolean isOn;
    String text = "WELCOME TO THE ICE CREAM SIMULATOR!";
-   String text2 = "THE OBJECTIVE OF THE GAME IS SIMPLE: YOU’RE AN ICE CREAM MAN.";
+   String text2 = "THE OBJECTIVE OF THE GAME IS SIMPLE: YOU'RE AN ICE CREAM MAN.";
    String text3 = "TODAY, THE SUN IS BEAMING LIKE NEVER BEFORE. ";
    String text4 = "SERVE THESE KIDS BEFORE THEY GET IMPATIENT AND LEAVE";
    String text5 = "( YOU KNOW HOW KIDS CAN BE... )";
    String text6 = "WASD OR KEYS TO MOVE. SPACE BAR TO CLICK.";
-   String text7 = "THE QUESTION MARK WILL TELL YOU IF YOU’RE CORRECT.";
+   String text7 = "THE QUESTION MARK WILL TELL YOU IF YOU'RE CORRECT.";
    String text8 = "THE TRASH CAN BE USED TO RESET THE ICE CREAM CONE.";
    String text9 = "GOOD LUCK!";
    

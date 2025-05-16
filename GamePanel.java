@@ -125,9 +125,7 @@ public class GamePanel extends JPanel implements Runnable {
    // These next two objects are a doozy so I am sectioning them off //
    
    Score hScore;
-   
-   HighScoreLoader hsL;
-   
+      
    // ---------- //
    
   
